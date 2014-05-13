@@ -1,25 +1,25 @@
 {
-	"name": "mquire",
-	"version": "0.0.0",
-	"description": "Dependency injection for NodeJS require",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"keywords": [
-		"require",
-		"mocha",
-		"sinon",
-		"dependency",
-		"injection"
-	],
-	"author": "Seth Tolle",
-	"license": "MIT",
-	"dependencies": {
-		"sinon": "^1.9.1"
-	},
-	"devDependencies": {
-		"mocha": "^1.18.2",
-		"chai": "^1.9.1"
-	}
+  "name": "mquire",
+  "version": "0.0.1",
+  "description": "Dependency injection for NodeJS require",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "require",
+    "mocha",
+    "sinon",
+    "dependency",
+    "injection"
+  ],
+  "author": "Seth Tolle",
+  "license": "MIT",
+  "dependencies": {
+    "sinon": "^1.9.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "chai": "^1.9.1"
+  }
 }
