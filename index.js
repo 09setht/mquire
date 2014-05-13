@@ -1,3 +1,6 @@
+var internalMquire = require('./lib/mquire');
+
 module.exports = function (depName, mocks) {
-	return require(depName);
+
+	return internalMquire(module.parent, depName, mocks);
 };
